@@ -36,10 +36,10 @@ cd hash-cracking-automation
 ```bash
 # Convierte formato de línea si es necesario
 sudo apt install dos2unix
-dos2unix Crack_hashes.sh
+dos2unix crack_hashes.sh
 
 # Da permisos de ejecución
-chmod +x Crack_hashes.sh
+chmod +x crack_hashes.sh
 
 # Asegura que rockyou.txt esté descomprimido
 sudo gunzip /usr/share/wordlists/rockyou.txt.gz
@@ -71,7 +71,7 @@ WORDLIST="/ruta/a/tu/diccionario.txt"
 
 ### Ejecución básica
 ```bash
-./Crack_hashes.sh hashes.txt
+./crack_hashes.sh hashes.txt
 ```
 
 ### Ejemplo con archivo personalizado
@@ -81,7 +81,7 @@ echo "48bb6e862e54f2a795ffc4e541caed4d" > mis_hashes.txt
 echo "CBFDAC6008F9CAB4083784CBD1874F76618D2A97" >> mis_hashes.txt
 
 # Ejecuta el script
-./Crack_hashes.sh mis_hashes.txt
+./crack_hashes.sh mis_hashes.txt
 ```
 
 ### Estructura de resultados
@@ -109,8 +109,8 @@ hashcat_results/
 ```bash
 # Solución:
 sudo apt install dos2unix
-dos2unix Crack_hashes.sh
-chmod +x Crack_hashes.sh
+dos2unix crack_hashes.sh
+chmod +x crack_hashes.sh
 ```
 
 ### Error: "rockyou.txt not found"
