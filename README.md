@@ -28,7 +28,7 @@
 
 1. **Clona el repositorio**:
 ```bash
-git clone https://github.com/tuusuario/hash-cracking-automation.git
+git clone https://github.com/lolcragamer/hash-cracking-automation.git
 cd hash-cracking-automation
 ```
 
